@@ -1,0 +1,54 @@
+body,h1,h2,h3,p,dl,dd,ol,ul,th,td,form,fieldset,input,button,textarea {
+	margin: 0;
+	padding: 0;
+}
+
+.title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1rem;
+}
+
+.block-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block{
+    width: 50%;
+    height: 50%;
+}
+
+.block:nth-child(1){
+    background: #DDFFDD;
+}
+
+.block:nth-child(2){
+    background: #E4DDFF;
+}
+
+.block:nth-child(3){
+    background: #FFFFDD;
+}
+
+.block:nth-child(4){
+    background: #FFDDFF;
+}
